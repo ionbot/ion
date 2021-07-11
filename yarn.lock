@@ -16,10 +16,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@ionapp/bot@1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@ionapp/bot/-/bot-1.0.0-beta.3.tgz#7f5a2bcec26f1a2be14f458e4058f610868d789c"
-  integrity sha512-TaSnQV4pEGkDqbB2its68NiI0ow+n/uBkRg1UY7/cHNF1sPpChdBI5baOUGCLuUIg+qCK2S2vFtSS385J4RoZA==
+"@ionapp/bot@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@ionapp/bot/-/bot-1.0.0.tgz#04e648e64971aa6fc9d7fc90423aa5825910e571"
+  integrity sha512-570kvCx4p762XA7Vjr4k0owI+o4JRhvERBcg2gBiW3cUbKBFOV1G2wv2L6q7GJSP20StZC4Z8kqxvZ+pFBAoJg==
   dependencies:
     cors "^2.8.5"
     date-fns "^2.22.1"
