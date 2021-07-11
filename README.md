@@ -14,7 +14,7 @@
 Run the following command to clone this repository
 
 ```bash
-https://github.com/ionbot/ion
+git clone https://github.com/ionbot/ion
 ```
 
 ## 2. Install Dependencies
