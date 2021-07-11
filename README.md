@@ -42,3 +42,8 @@ Edit or Create (`.env`) set `MONGO={mongo-uri}`
 ## That's it. :)
 
 #### Dashboard should be up and running on port 4200 (by default).
+
+# Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ionbot/ion/)
+
