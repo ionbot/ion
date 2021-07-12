@@ -7,6 +7,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ionapp/bot": "^1.0.0"
+    "@ionapp/bot": "latest"
   }
 }
