@@ -9,6 +9,10 @@
       "description": "You can use local MongoDB or you can use Mongo Atlas (it's free and gives 500Mb of database storage).",
       "required": true
     }
+    "REACT_APP_HOST": {
+      "description": "Enter https://{appname}.heroku.com and Replace {appname} With the Heroku app name that you have entered first.",
+      "required": true
+    }
   },
   "buildpacks": [
     {
