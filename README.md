@@ -37,7 +37,7 @@ npm i
 
 You can use local MongoDB or you can use Mongo Atlas (it's free and gives 500Mb of database storage).
 
-Edit or Create (`.env`) set `MONGO={mongo-uri}`
+Edit or Create (`.env`) set `MONGO_URI={mongo-uri}`
 
 ## That's it. :)
 
@@ -46,4 +46,3 @@ Edit or Create (`.env`) set `MONGO={mongo-uri}`
 # Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ionbot/ion/)
-
