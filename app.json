@@ -1,18 +1,18 @@
 {
-  "name": "Ion",
-  "description": "Web based Telegram user bot manager with custom commands, plugins and more.",
-  "logo": "https://avatars.githubusercontent.com/u/52279511?s=200&v=4",
-  "keywords": ["telegram", "userbot", "gramjs", "react"],
-  "repository": "https://github.com/ionbot/ion",
-  "env": {
-    "MONGO": {
-      "description": "You can use local MongoDB or you can use Mongo Atlas (it's free and gives 500Mb of database storage).",
-      "required": true
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+	"name": "Ion",
+	"description": "Web based Telegram user bot manager with custom commands, plugins and more.",
+	"logo": "https://avatars.githubusercontent.com/u/52279511?s=200&v=4",
+	"keywords": ["telegram", "userbot", "gramjs", "react"],
+	"repository": "https://github.com/ionbot/ion",
+	"env": {
+		"MONGO_URI": {
+			"description": "You can use local MongoDB or you can use Mongo Atlas (it's free and gives 500Mb of database storage).",
+			"required": true
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/nodejs"
+		}
+	]
 }

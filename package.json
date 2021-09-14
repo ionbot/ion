@@ -1,12 +1,13 @@
 {
-  "name": "ionapp",
-  "version": "1.0.0",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@ionapp/bot": "latest"
-  }
+	"name": "ionapp",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@ionapp/ion": "latest",
+		"dotenv": "^10.0.0"
+	}
 }

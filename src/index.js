@@ -1,5 +1,5 @@
-// import the app
-const app = require("@ionapp/bot");
+require('dotenv/config')
+const { Ion } = require('@ionapp/ion')
+const { MONGO_URI, PORT } = process.env
 
-// start it
-app.start();
+Ion({ port: PORT, mongoUri: MONGO_URI })
